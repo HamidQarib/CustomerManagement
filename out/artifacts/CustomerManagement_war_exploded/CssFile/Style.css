@@ -1,0 +1,588 @@
+@font-face {
+
+    font-family: "persianFont";
+    src: url('Font/pixelboy-Silicon.eot');
+    src: url("Font/pixelboy-Silicon.woff") format("woff"),
+    url('Font/pixelboy-Silicon.ttf') format("truetype"),
+    url('Font/pixelboy-Silicon.eot') format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+
+    background-color: #f2f2f2;
+
+    caption-side: top;
+}
+
+a {
+    background-color: #ffe100;
+    color: black;
+    /*padding: 40px 60px;*/
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 100%;
+    border-radius: 12px;
+
+}
+
+a:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+
+}
+
+.realCustomer {
+    position: absolute;
+    transition: .5s ease;
+    top: 50%;
+    right: 25%;
+    padding: 1cm 2.5cm;
+}
+
+.legalCustomer {
+    position: absolute;
+    transition: .5s ease;
+    top: 50%;
+    left: 25%;
+    padding: 1cm 2.5cm;
+
+}
+
+.legalCustomerRegistrationButton {
+    background-color: #60ff08;
+    border: #60ff08;
+    color: black;
+    cursor: pointer;
+    padding: 0.5cm 6.73cm;
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    transition: .5s ease;
+    top: 15cm;
+    right: 0.2cm;
+    border-radius: 12px;
+
+}
+.legalCustomerRegistrationButton:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.legalCustomerSearchingButton {
+    background-color: deepskyblue;
+    border: deepskyblue;
+    color: black;
+    padding: 0.5cm 2.9cm;
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    transition: .5s ease;
+    top: 15cm;
+    right: 17.5cm;
+    border-radius: 12px;
+
+}
+.legalCustomerSearchingButton:hover{
+    background-color: #025baf;
+    color: white;
+
+}
+
+.legalCustomerBackButtonToIndex {
+    background-color: red;
+    border: red;
+    color: black;
+    padding: 0.5cm 3.5cm;
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    transition: .5s ease;
+    top: 15cm;
+    right: 27.5cm;
+
+}
+.legalCustomerBackButtonToIndex:hover{
+    background-color: #af1500;
+    color: white;
+}
+
+.legalCustomerInsertTable {
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-collapse: collapse;
+    width: 600px;
+    height: 500px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+
+
+}
+
+
+h1 {
+    font-family: 'persianFont', Arial, sans-serif;
+    background-color: gold;
+
+}
+
+h4 {
+    font-family: 'persianFont', Arial, sans-serif;
+    background-color: gold;
+    font-size: 20px;
+
+}
+
+p {
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    border-radius: 12px;
+    text-align: center;
+
+}
+.legalCustomerSuccessMessege{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    transition: .5s ease;
+    top: 8cm;
+    right: 15cm;
+}
+.legalCustomerBackButtonToLegalCustomerInPut{
+    background-color: red;
+    padding: 0.5cm 1cm;
+    position: absolute;
+    transition: .5s ease;
+    top: 15cm;
+    right: 16.5cm;
+
+}
+.legalCustomerSelectingTools{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-collapse: collapse;
+    width: 600px;
+    height: 500px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    position: absolute;
+    transition: .5s ease;
+    top: 1.5cm;
+    right: 0.2cm;
+
+}
+.legalCustomerBackButtonToLegalCustomerInPutInSelectTools{
+    background-color: red;
+    border: red;
+    color: black;
+    padding: 0.5cm 3.5cm;
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    transition: .5s ease;
+    top: 15cm;
+    right: 27.5cm;
+}
+.legalCustomerBackButtonToLegalCustomerInPutInSelectTools:hover{
+    background-color: #af1500;
+    color: white;
+}
+.LegalCustomerSearching {
+    background-color: deepskyblue;
+    border: deepskyblue;
+    color: black;;
+    padding: 0.5cm 7.4cm;
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    transition: .5s ease;
+    top: 15cm;
+    right: 0.2cm;
+    border-radius: 12px;
+
+}
+.legalCustomerSearching:hover{
+    background-color: #025baf;
+    color: white;
+    cursor: pointer;
+}
+
+.legalCustomerSelectingToolsParagraph{
+    position: absolute;
+    transition: .5s ease;
+    right: 0.2cm;
+
+}
+.legalCustomerAlertForEconomicCode{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    transition: .5s ease;
+    top: 8cm;
+    right: 15cm;
+
+}
+.legalCustomerRegisterationTable{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bold;
+    border-collapse: collapse;
+    width: 500px;
+    height: 90px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+
+}
+.legalCustomerSearchingTable{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bold;
+    border-collapse: collapse;
+    width: 20cm;
+    text-align: center;
+
+}
+.SearchingTable:nth-child(even){
+    background-color: white;
+}
+.legalCustomerEditButton{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: gold;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+}
+.legalCustomerEditButton:hover {
+    background-color: #af990d;
+    color: white;
+}
+.legalCustomerDeleteButton{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: red;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+}
+.legalCustomerDeleteButton:hover{
+    background-color: #af1500;
+    color: white;
+}
+.legalCustomerBackButtonToLegalCustomerInPutInSearchedPage{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: red;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius:8px;
+    position: absolute;
+    transition: .5s ease;
+    top: 0.5cm;
+    right: 32cm;
+}
+.legalCustomerSearchingForUpdateTable{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bold;
+    border-collapse: collapse;
+    width: 20cm;
+    text-align: center;
+}
+.legalCustomerSearchingForUpdateTable:nth-child(even){
+    background-color: gainsboro;
+}
+.legalCustomerBackButtonToLegalCustomerSelectToolsInUpdatingSelect{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: red;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius:8px;
+    position: absolute;
+    transition: .5s ease;
+    top: 0.5cm;
+    right: 32cm;
+}
+.legalCustomerEditButtonInSearchingForUpdate{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: gold;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius:8px;
+
+}
+.legalCustomerEditButtonInSearchingForUpdate:hover{
+    background-color: #af990d;
+    color: white;
+}
+.legalCustomerBackButtonToLegalCustomerInPutInDeletingPage{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: red;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius:8px;
+    position: absolute;
+    transition: .5s ease;
+    top: 0.5cm;
+    right: 32cm;
+}
+.legalCustomerBackButtonToLegalCustomerSelectToolsInUpdatePage{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: red;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius:8px;
+    position: absolute;
+    transition: .5s ease;
+    top: 0.5cm;
+    right: 32cm;
+}
+
+
+
+/*css for realCustomer*/
+
+
+.realCustomerRegsterationButton{
+    background-color: #60ff08;
+    border: #60ff08;
+    color: black;
+    cursor: pointer;
+    padding: 0.5cm 6.73cm;
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    transition: .5s ease;
+    top: 15cm;
+    right: 0.2cm;
+    border-radius: 12px
+}
+.realCustomerRegsterationButton:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+.realCustomerSearchingButton{
+    background-color: deepskyblue;
+    border: deepskyblue;
+    color: black;
+    padding: 0.5cm 2.9cm;
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    transition: .5s ease;
+    top: 15cm;
+    right: 17.5cm;
+    border-radius: 12px;
+}
+.realCustomerSearchingButton:hover{
+    background-color: #025baf;
+    color: white;
+}
+.realCustomerBackToIndex{
+    background-color: red;
+    border: red;
+    color: black;
+    padding: 0.5cm 3.5cm;
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    transition: .5s ease;
+    top: 15cm;
+    right: 27.5cm;
+}
+.realCustomerInsertTable{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-collapse: collapse;
+    width: 600px;
+    height: 500px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+.realCustomerSuccessMessege{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    transition: .5s ease;
+    top: 8cm;
+    right: 15cm
+}
+.realCustomerBackButtonTorealCustomerInPut{
+    background-color: red;
+    padding: 0.5cm 1cm;
+    position: absolute;
+    transition: .5s ease;
+    top: 15cm;
+    right: 16.5cm;
+}
+.realCustomerSelectingTools{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-collapse: collapse;
+    width: 600px;
+    height: 500px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    position: absolute;
+    transition: .5s ease;
+    top: 1.5cm;
+    right: 0.2cm;
+}
+.realCustomerBackButtonToRealCustomerInPutInSelectTools{
+    background-color: red;
+    border: red;
+    color: black;
+    padding: 0.5cm 3.5cm;
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    transition: .5s ease;
+    top: 15cm;
+    right: 27.5cm;
+}
+.realCustomerSearching{
+    background-color: deepskyblue;
+    border: deepskyblue;
+    color: black;;
+    padding: 0.5cm 7.4cm;
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    transition: .5s ease;
+    top: 15cm;
+    right: 0.2cm;
+    border-radius: 12px;
+}
+.realCustomerSearching:hover{
+    background-color: #025baf;
+    color: white
+}
+.realCustomerSearchingTable{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bold;
+    border-collapse: collapse;
+    width: 20cm;
+    text-align: center;
+}
+.realCustomerEditButton{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: gold;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+}
+.realCustomerEditButton:hover{
+    background-color: #af990d;
+    color: white
+}
+.realCustomerDeleteButton{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: red;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+}
+.realCustomerDeleteButton:hover{
+    background-color: #af1500;
+    color: white;
+}
+.realCustomerBackButtonToRealCustomerInPutInSearchedPage{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: red;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius:8px;
+    position: absolute;
+    transition: .5s ease;
+    top: 0.5cm;
+    right: 32cm;
+}
+.realCustomerBackButtonToRealCustomerSelectToolsInDeletingPage{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: red;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius:8px;
+    position: absolute;
+    transition: .5s ease;
+    top: 0.5cm;
+    right: 32cm;
+}
+.realCustomerBackButtonToRealCustomerSelectToolsInSearchedForUpdatepage{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: red;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius:8px;
+    position: absolute;
+    transition: .5s ease;
+    top: 0.5cm;
+    right: 32cm;
+}
+.realCustomerSearchingForUpdateTable{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bold;
+    border-collapse: collapse;
+    width: 20cm;
+    text-align: center;
+}
+.realCustomerEditButtonInSearchedForUpdate{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: gold;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius:8px;
+}
+.realCustomerEditButtonInSearchedForUpdate:hover{
+    background-color: #af990d;
+    color: white
+}
+.realCustomerBackButtonToRealCustomerSelectToolsInUpdatePage{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: red;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius:8px;
+    position: absolute;
+    transition: .5s ease;
+    top: 0.5cm;
+    right: 32cm;
+}
+.realCustomerRegsterationTable{
+    font-family: 'persianFont', Arial, sans-serif;
+    font-weight: bold;
+    border-collapse: collapse;
+    width: 500px;
+    height: 90px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+}
